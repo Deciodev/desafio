@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    
-    char estado1[50] = "São Paulo";
+    //variaveis das cartas 1 e 2
+    char estado1[50] = "São Paulo";  //char que declara uma variavel de string
     char cidade1[50] = "São Bernardo do Campo";
     char codigo1[10] = "A01";
-    int populacao1 = 1000000;
-    float area1 = 100.5;
+    int populacao1 = 1000000;  //int que declara uma variavel de números inteiros
+    float area1 = 100.5;  //float que declara uma variavel de ponto flutuante
     float pib1 = 5000000.0;
     int turismo1 = 100;
 
@@ -23,10 +23,10 @@ int main() {
     printf("Estado: %s\n", estado1);
     printf("Cidade: %s\n", cidade1);
     printf("Código: %s\n", codigo1);
-    printf("População: %d\n", populacao1);
+    printf("População: %d\n", populacao1);              
     printf("Área: %.2f km²\n", area1);
     printf("PIB: %.2f\n", pib1);
-    printf("Turismo: %d\n", turismo1);
+    printf("Número de pontos turístico: %d\n", turismo1);
 
 //carta 2
     printf("\n");
@@ -37,7 +37,7 @@ int main() {
     printf("População: %d\n", populacao2);
     printf("Área: %.2f km²\n", area2);
     printf("PIB: %.2f\n", pib2);
-    printf("Turismo: %d\n", turismo2);
+    printf("Número de pontos turístico: %d\n", turismo2);
 
     return 0;
 
